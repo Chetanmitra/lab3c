@@ -3,10 +3,10 @@
 // Collaborator: Devansh Agarwal dqa5365@psu.edu
 
 
-
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
+
 
 int sum_n(int );
 void print_n(const char*, int);
@@ -21,6 +21,7 @@ int main()
   print_n(copy, num);
 }
 
+
 int sum_n(int n)
 {
   if (n<=1)
@@ -31,6 +32,8 @@ int sum_n(int n)
     return n + sum_n(n-1);
   }
 }
+
+
 void print_n(const char *s, int n)
 {
   if (n<=1)
