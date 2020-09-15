@@ -1,6 +1,8 @@
 // Author: Chetan Mitra czm5805@psu.edu
 // Collaborator: Nick McCuch nmm6025@psu.edu
 // Collaborator: Devansh Agarwal dqa5365@psu.edu
+// Breakout Room: 6
+// Section: 11R
 
 
 #include <stdio.h>
@@ -29,7 +31,7 @@ int sum_n(int n)
     return n=1;
   }
   else{
-    return n + sum_n(n-1);
+       return n + sum_n(n-1); 
   }
 }
 
@@ -38,7 +40,7 @@ void print_n(const char *s, int n)
 {
   if (n<=1)
   {
-    printf("%s\n",s);
+   printf("%s\n",s);
   }
   else
   {
