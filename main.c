@@ -26,9 +26,9 @@ int main()
 
 int sum_n(int n)
 {
-  if (n<=1)
+  if (n<1)
   {
-    return n=1;
+    return n=0;
   }
   else{
        return n + sum_n(n-1); 
@@ -38,11 +38,7 @@ int sum_n(int n)
 
 void print_n(const char *s, int n)
 {
-  if (n<=1)
-  {
-   printf("%s\n",s);
-  }
-  else
+  if (n>=1)
   {
     printf("%s\n",s); 
     print_n(s,n-1);
