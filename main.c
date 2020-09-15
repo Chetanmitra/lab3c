@@ -1,3 +1,9 @@
+// Author: Chetan Mitra czm5805@psu.edu
+// Collaborator: Nick McCuch nmm6025@psu.edu
+// Collaborator: Devansh Agarwal dqa5365@psu.edu
+
+
+
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
